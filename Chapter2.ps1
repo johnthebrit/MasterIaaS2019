@@ -1,3 +1,4 @@
+#region Roles
 #Viewing roles
 Get-AzRoleDefinition | FT Name, Description
 Get-AzRoleDefinition | measure
@@ -29,8 +30,10 @@ $role.AssignableScopes.Clear()
 $role.AssignableScopes.Add("/subscriptions/$($sub.id)")
 New-AzRoleDefinition -Role $role
 
+#endregion
 
-#Using tags
+
+#region Tags
 $VMName = 'Savazuusscdc01'
 $RGName = 'RG-Infra-SCUS'
 $VM = Get-AzVM $RGName $VMName
@@ -89,3 +92,5 @@ foreach($group in $groups)
         }
     }
 }
+
+#endregion
