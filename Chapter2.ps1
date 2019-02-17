@@ -45,7 +45,22 @@ $Res.Tags.Add("Owner", "John Savill")
 Set-AzResource -Tag $Res.Tags -ResourceId $Res.Id -Force
 #Find all DCs by searching for any resource with Role of DC in the tags
 Get-AzResource -Tag @{Role = "DC"} | Format-Table Name, ResourceGroupName -AutoSize
-
+#Create a JSON document in a variable
+$OpersHash = @{AVAgent = "Defender";PatchSystem = "MU";MaintWindow = "1:00-4:00"}
+$OpersJson = $OpersHash | ConvertTo-Json
+#Add to tags of VM
+$res.Tags.Add("Operations",$OpersJson)
+Set-AzResource -Tag $Res.Tags -ResourceId $Res.Id -Force
+$res.tags.Operations
+#Fetch the updated object
+$Res = Get-AzResource -ResourceGroupName $RGName -Name $VMName
+$OpersObj = $res.tags.Operations | ConvertFrom-Json
+#Update maintenance window and add a patch day of today
+$OpersObj.MaintWindow = "1:00-3:00"
+$OpersObj | Add-Member -Name "PatchDate" -Value (Get-Date -UFormat "%Y/%m/%d") -MemberType NoteProperty
+$OpersJson = $OpersObj | ConvertTo-Json
+$res.Tags.Operations = $OpersJson
+Set-AzResource -Tag $Res.Tags -ResourceId $Res.Id -Force
 
 #Copy tags from Resource Group to resources for every RG in a subscription
 $groups = Get-AzResourceGroup
