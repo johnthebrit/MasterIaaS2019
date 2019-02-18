@@ -113,3 +113,25 @@ foreach($network in $networks)
 }
 
 #endregion
+
+
+#region AzureResourceGraph
+
+#install the preview module
+Install-Module -Name Az.ResourceGraph
+
+#Count total number of Azure resources
+Search-AzGraph -Query "summarize count ()"
+
+#List all VMs ordered by name
+Search-AzGraph -Query "project name, location, type| where type =~ 'Microsoft.Compute/virtualMachines' | order by name desc"
+
+#List first 3 and show OS type
+Search-AzGraph -Query "where type =~ 'Microsoft.Compute/virtualMachines' | project name, properties.storageProfile.osDisk.osType | top 3 by name desc"
+
+#Show to resources that are tagged with role as DCs
+Search-AzGraph -Query "where tags.Role=~'DC' | project name, tags"
+
+#Show all tags
+Search-AzGraph -Query "project tags | summarize buildschema(tags)"
+#endregion
