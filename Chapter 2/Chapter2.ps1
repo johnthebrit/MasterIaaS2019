@@ -123,6 +123,9 @@ Install-Module -Name Az.ResourceGraph
 #Count total number of Azure resources
 Search-AzGraph -Query "summarize count ()"
 
+#Count and group by subscription
+Search-AzGraph -Query "summarize count () by subscriptionId" | Format-Table
+
 #List all VMs ordered by name
 Search-AzGraph -Query "project name, location, type| where type =~ 'Microsoft.Compute/virtualMachines' | order by name desc"
 
@@ -134,4 +137,7 @@ Search-AzGraph -Query "where tags.Role=~'DC' | project name, tags"
 
 #Show all tags
 Search-AzGraph -Query "project tags | summarize buildschema(tags)"
+
+#Show all VMs not using managed disks
+Search-AzGraph -Query "where type =~ 'Microsoft.Compute/virtualMachines' | where isempty(aliases['Microsoft.Compute/virtualMachines/storageProfile.osDisk.managedDisk.id']) | summarize count()"
 #endregion
