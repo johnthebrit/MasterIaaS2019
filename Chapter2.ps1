@@ -94,3 +94,22 @@ foreach($group in $groups)
 }
 
 #endregion
+
+
+#region Policy
+
+$networks = Get-AzVirtualNetwork
+foreach($network in $networks)
+{
+    Write-Output "Network - $($network.Name)"
+    $subnets = Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $network
+    foreach($subnet in $subnets)
+    {
+        write-output " Subnet - $($subnet.Name)"
+        write-output " $($subnet.Id)"
+        write-output ""
+    }
+    Write-Output ""
+}
+
+#endregion
