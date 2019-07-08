@@ -113,45 +113,91 @@ git pull
 
 <details>
     <summary>Chapter 4 Links</summary>
-* Link
+
+* Security Registration - https://aka.ms/mysecurityinfo
+* MFA Deployment Plans - http://aka.ms/deploymentplans
+* MFA and SSPR Methods - https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-methods
+* AAD Password Policy - https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts
+* AAD Log Analytics Views - https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-install-use-log-analytics-views
+* AAD SSO Experience - https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on#choosing-a-single-sign-on-method
+* AAD B2C Demo Site - http://Aka.ms/aadb2cdemo
+* AD Protocols - http://technet.microsoft.com/en-us/library/dd772723(v=ws.10).aspx
+* AD Site Names - http://support.microsoft.com/kb/909264
+* AD RODC - http://technet.microsoft.com/library/dd728028(WS.10).aspx
+* AD RODC - http://technet.microsoft.com/en-us/library/dd734758(WS.10).aspx
+* AD vs AAD DS - https://docs.microsoft.com/en-us/azure/active-directory-domain-services/active-directory-ds-comparison
 </details>
 
 <details>
     <summary>Chapter 5 Links</summary>
+
 * Link
 </details>
 
 <details>
     <summary>Chapter 6 Links</summary>
+
 * Link
 </details>
 
 <details>
     <summary>Chapter 7 Links</summary>
-* Link
+
+* Windows VM Sizes - https://docs.microsoft.com/azure/virtual-machines/windows/sizes
+* Azure Compute Units - https://docs.microsoft.com/azure/virtual-machines/windows/acu
+* Retired VM Sizes - https://docs.microsoft.com/azure/virtual-machines/windows/sizes-previous-gen
+* Custom Script Extension Site - https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows
+* Golden Image Best Practices - https://github.com/Azure/Avere/blob/master/docs/azure_vm_provision_best_practices.md
+* Azure Dedicated Host - https://docs.microsoft.com/azure/security/azure-isolation
+* Microsoft Flow - https://flow.microsoft.com/
 </details>
 
 <details>
     <summary>Chapter 8 Links</summary>
-* Link
+
+* Custom role for stack registration - https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-registration-role
+* VMs by region - https://azure.microsoft.com/en-us/global-infrastructure/services/?products=virtual-machines
+* Azure Stack Capacity Planner - https://aka.ms/azstackcapacityplanner
+* Buying Azure Stack - https://azure.microsoft.com/en-us/overview/azure-stack/how-to-buy/
+* Azure Stack Services - https://azure.microsoft.com/en-us/overview/azure-stack/keyfeatures/
+* Azure Stack Development Kit (ASDK) - https://azure.microsoft.com/en-us/overview/azure-stack/development-kit/
+* Azure Stack PowerShell - https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-powershell-install
+* Azure Stack Tools - https://github.com/Azure/AzureStack-Tools
+* Azure Stack Marketplace - https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-download-azure-marketplace-item
+* Example Syndication Script - https://github.com/johnthebrit/AzureStack/blob/master/azurestackmarketplace.ps1
+* Log Analytics Azure Stack Integration - https://github.com/Azure-Samples/AzureStack-AdminPowerShell-OMSIntegration/blob/master/docs/setup.md
+* Azure Stack HCI - https://www.microsoft.com/en-us/cloud-platform/azure-stack-hci-catalog
 </details>
 
 <details>
     <summary>Chapter 9 Links</summary>
+
 * Link
 </details>
 
 <details>
     <summary>Chapter 10 Links</summary>
+
 * Link
 </details>
 
 <details>
     <summary>Chapter 11 Links</summary>
+
 * Link
 </details>
 
 <details>
     <summary>Chapter 12 Links</summary>
-* Link
+
+* Notorious Nine Cloud Threats - https://cloudsecurityalliance.org/download/the-notorious-nine-cloud-computing-top-threats-in-2013/
+* Azure Certifications - https://www.microsoft.com/en-us/TrustCenter/CloudServices/Azure
+* Azure Lightning Strike - www.huffingtonpost.com/2011/08/08/amazon-microsoft-dublin-lightening_n_920875.html
+* Cloud Link NSA Article - www.washingtonpost.com/world/national-security/nsa-infiltrates-links-to-yahoo-google-data-centers-worldwide-snowden-documents-say/2013/10/30/e51d661e-4166-11e3-8b74-d89d714ca4dd_story.html
+* Azure blog - http://azure.microsoft.com/blog/
+* Azure Networking blog - https://azure.microsoft.com/blog/topics/networking/
+* Azure VM documentation - https://docs.microsoft.com/azure/virtual-machines/
+* My blog (information about new videos I create and other resources) - https://savilltech.com
+* My YouTube Channel - https://youtube.com/ntfaqguy
+
 </details>
