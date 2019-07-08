@@ -62,3 +62,94 @@ git pull
 * Azure Subscription Limits - https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits
 * Creating Azure Dashboards - https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards
 </details>
+
+<details>
+    <summary>Chapter 2 Links</summary>
+* Azure Governance Docs - http://aka.ms/governancedocs
+* Azure Shared Responsibility - http://download.microsoft.com/download/0/D/6/0D68AE95-6414-4074-B4B8-34039831E2BF/Microsoft-Cloud-Security-for-Legal-and-Compliance-Professionals.pdf
+* Azure Compliance Center - https://www.microsoft.com/en-us/trustcenter/compliance/compliance-overview
+* Azure Compliance Guide - https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide
+* Azure Governance Journeys - https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/governance/journeys/overview
+* Changing Azure Subscription Owner - https://docs.microsoft.com/en-us/azure/billing/billing-subscription-transfer
+* Azure Subscription Limits - https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits
+* Global Admin Elevate - https://docs.microsoft.com/en-us/azure/role-based-access-control/elevate-access-global-admin/
+* Management Groups - https://docs.microsoft.com/en-us/azure/governance/management-groups/manage
+* Azure Tagging Example - https://marckean.com/2018/12/17/easy-tagging-of-resources-in-azure-for-billing-and-charge-back/
+* Azure Built-in Roles - https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
+* Azure RBAC PowerShell - https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell
+* Azure Naming Convention - https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions
+* Azure Tagging - https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support
+* Azure Tag Examples - https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags
+* Azure Network Policy Example - https://github.com/Azure/azure-policy/tree/master/samples/Network/no-public-ip-except-for-one-subnet
+* Azure Blueprints - https://docs.microsoft.com/en-us/azure/governance/blueprints/
+* Azure Cost API - https://docs.microsoft.com/en-us/rest/api/consumption/
+
+</details>
+
+<details>
+    <summary>Chapter 3 Links</summary>
+* Windows Service Ports - https://support.microsoft.com/en-us/help/832017/service-overview-and-network-port-requirements-for-windows
+* Azure v2 Apps - https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-app-types
+* Azure AD SKUs - https://azure.microsoft.com/en-us/pricing/details/active-directory/
+* Map ImmutableID - https://gallery.technet.microsoft.com/scriptcenter/Azure-GUID-to-ImmutableID-d27c5b12
+* Office 365 UPN Branding - https://support.microsoft.com/en-in/help/3164442/how-to-use-upn-matching-for-identity-synchronization-in-office-365-azu
+* Azure AD Connect Topologies - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies
+* AAD Connect Account Permissions - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions
+* AAD Emergency Access - https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access
+* AAD Workday Integration - https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/workday-inbound-tutorial
+* B2B Portal Example - https://github.com/Azure/active-directory-dotnet-graphapi-b2bportal-web
+* Password Hash Synchronization - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization
+* PBDKF2 spec - https://www.ietf.org/rfc/rfc2898.txt
+* AAD PTA - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-security-deep-dive
+* AAD Migrate Apps - https://aka.ms/migrateapps
+* AAD SSO Workings - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-how-it-works
+* AAD Join SSO - https://docs.microsoft.com/en-us/azure/active-directory/devices/azuread-join-sso
+* AAD Dynamic Group Rules - https://go.microsoft.com/fwlink/?linkid=2014390
+* AAD Apps Consent - https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent
+* AAD Access Panel - https://docs.microsoft.com/en-us/azure/active-directory/user-help/active-directory-saas-access-panel-introduction
+</details>
+
+<details>
+    <summary>Chapter 4 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 5 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 6 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 7 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 8 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 9 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 10 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 11 Links</summary>
+* Link
+</details>
+
+<details>
+    <summary>Chapter 12 Links</summary>
+* Link
+</details>
