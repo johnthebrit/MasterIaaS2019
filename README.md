@@ -31,6 +31,8 @@ git pull
 | Visual Studio Code  | https://code.visualstudio.com/Download    |
 | Git                 | https://git-scm.com/downloads             |
 
+## Chapter Links
+
 <details>
     <summary>Chapter 1 Links</summary>
 
