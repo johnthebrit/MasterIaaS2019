@@ -137,7 +137,17 @@ git pull
 <details>
     <summary>Chapter 6 Links</summary>
 
-* Link
+* Azure Storage Architecture Detail - http://sigops.org/sosp/sosp11/current/2011-Cascais/11-calder-online.pdf
+* Custom Storage URLs - https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name
+* Azure Storage Explorer - https://azure.microsoft.com/en-us/features/storage-explorer/
+* Blob snapshot - https://azure.microsoft.com/en-us/blog/microsoft-azure-block-blob-storage-backup/
+* Azure Storage Limits - https://docs.microsoft.com/azure/azure-subscription-service-limits#storage-limits
+* Azure Managed Disks - https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-scalability-targets
+* Azure Managed Disk Types - https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disks-types
+* VM Availability - https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability
+* Write Acceleration in Azure - https://docs.microsoft.com/en-us/azure/virtual-machines/windows/how-to-enable-write-accelerator
+* SQL Database Pricing - https://azure.microsoft.com/en-us/pricing/details/sql-database/managed/
+* SQL DTU Calculator - http://dtucalculator.azurewebsites.net/
 </details>
 
 <details>
