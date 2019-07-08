@@ -65,6 +65,7 @@ git pull
 
 <details>
     <summary>Chapter 2 Links</summary>
+
 * Azure Governance Docs - http://aka.ms/governancedocs
 * Azure Shared Responsibility - http://download.microsoft.com/download/0/D/6/0D68AE95-6414-4074-B4B8-34039831E2BF/Microsoft-Cloud-Security-for-Legal-and-Compliance-Professionals.pdf
 * Azure Compliance Center - https://www.microsoft.com/en-us/trustcenter/compliance/compliance-overview
@@ -88,6 +89,7 @@ git pull
 
 <details>
     <summary>Chapter 3 Links</summary>
+
 * Windows Service Ports - https://support.microsoft.com/en-us/help/832017/service-overview-and-network-port-requirements-for-windows
 * Azure v2 Apps - https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-app-types
 * Azure AD SKUs - https://azure.microsoft.com/en-us/pricing/details/active-directory/
