@@ -13,6 +13,7 @@ foreach ($roledef in $roles) {
     }
 }
 
+
 #Create a custom role
 Get-AzProviderOperation "Microsoft.Compute/virtualMachines/*" | FT OperationName, Operation, Description -AutoSize
 $sub = Get-AzSubscription -SubscriptionName "SavillTech Dev Subscription"
