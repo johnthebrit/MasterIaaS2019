@@ -31,7 +31,8 @@ git pull
 | Visual Studio Code  | https://code.visualstudio.com/Download    |
 | Git                 | https://git-scm.com/downloads             |
 
-## Chapter 1 Links
+<details>
+    <summary>Chapter 1 Links</summary>
 
 * NIST Cloud definition - http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf
 * Project Olympus - https://azure.microsoft.com/en-us/blog/microsoft-reimagines-open-source-cloud-hardware/
@@ -58,3 +59,4 @@ git pull
 * Azure Hybrid Benefit - https://azure.microsoft.com/en-us/pricing/hybrid-benefit/
 * Azure Subscription Limits - https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits
 * Creating Azure Dashboards - https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards
+</details>
