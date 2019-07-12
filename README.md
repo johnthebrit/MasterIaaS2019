@@ -136,7 +136,6 @@ git pull
 * VPN SKUs - https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku
 * ExpressRoute SKUs - https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways#gwsku
 * NSG Service Tags - https://docs.microsoft.com/en-us/azure/virtual-network/security-overview#service-tags
-*
 </details>
 
 <details>
@@ -225,7 +224,6 @@ git pull
 * Azure Quick Start Templates - https://github.com/Azure/azure-quickstart-templates
 * ARM Template Best Practices - https://docs.microsoft.com/en-us/azure/azure-resource-manager/template-best-practices
 * Linked Templates - https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates
-*
 </details>
 
 <details>
