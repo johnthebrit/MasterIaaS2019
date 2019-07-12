@@ -131,7 +131,12 @@ git pull
 <details>
     <summary>Chapter 5 Links</summary>
 
-* Link
+* VPN Encryption - https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-compliance-crypto
+* ExpressRoute Premium - https://docs.microsoft.com/en-us/azure/expressroute/expressroute-faqs#expressroute-premium
+* VPN SKUs - https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku
+* ExpressRoute SKUs - https://docs.microsoft.com/en-us/azure/expressroute/expressroute-about-virtual-network-gateways#gwsku
+* NSG Service Tags - https://docs.microsoft.com/en-us/azure/virtual-network/security-overview#service-tags
+*
 </details>
 
 <details>
@@ -182,19 +187,45 @@ git pull
 <details>
     <summary>Chapter 9 Links</summary>
 
-* Link
+* Linux FS Freeze Integrated Backup - https://azure.microsoft.com/blog/application-consistent-backup-for-linux-vms-using-azure-backup-is-generally-available/
+* SQL Server Integrated Backup - https://docs.microsoft.com/azure/backup/backup-azure-sql-database
+* Retain IP Failover - https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover
+* Azure Paired Regions - https://docs.microsoft.com/azure/best-practices-availability-paired-regions
+
 </details>
 
 <details>
     <summary>Chapter 10 Links</summary>
 
-* Link
+* Data Retention for Log Analytics - https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention
+* Active Log Retention - https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-archive-data
+* Policy sample for Log Analytics - https://github.com/Azure/azure-policy/tree/master/samples/Monitoring/apply-diagnostic-setting-azsql-loganalytics
+* Log Analytics RESTful API - https://docs.microsoft.com/azure/azure-monitor/platform/data-collector-api
+* Log Analytics pricing - https://azure.microsoft.com/pricing/details/monitor/
+* Azure Storage Threat Protection - https://docs.microsoft.com/en-us/azure/storage/common/storage-advanced-threat-protection
+* Azure SQL Database Threat Protection - https://docs.microsoft.com/en-us/azure/sql-database/sql-database-threat-detection-overview
+* Managed Identity - https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview
 </details>
 
 <details>
     <summary>Chapter 11 Links</summary>
 
-* Link
+* PowerShell Core - https://github.com/PowerShell/PowerShell
+* VS Code - https://code.visualstudio.com/Download
+* Getting read for DevOps - https://youtu.be/yavDKHV-OOI
+* AZ Authentication - https://docs.microsoft.com/powershell/azure/authenticate-azureps?view=azps-2.3.2
+* Creating multiple Multiple subnetsSubnets - https://savilltech.com/2018/03/25/easily-create-multiple-subnets-in-an-azure-virtual-network/
+* Using marketplace Marketplace imagesImages - https://savilltech.com/2018/03/23/use-an-application-image-from-the-azure-marketplace-using-powershell/
+* Deploying a VM -	https://savilltech.com/2018/03/17/deploying-an-azure-iaas-vm-using-powershell/
+* Checking creation Creation times Times of VMs - https://savilltech.com/2018/02/13/checking-the-creation-time-of-an-azure-iaas-vm/
+* Using custom Custom actionsActions - https://savilltech.com/2016/08/10/automating-deployments-to-azure-iaas-with-custom-actions/
+* Azure CLI Install - https://docs.microsoft.com/cli/azure/install-azure-cli
+* Custom password handling with Azure Automation - https://www.itprotoday.com/iaaspaas/handling-passwords-azure-automation-service-accounts
+* Infrastructure as Code Video - https://youtu.be/gDW6N2nvVzI
+* Azure Quick Start Templates - https://github.com/Azure/azure-quickstart-templates
+* ARM Template Best Practices - https://docs.microsoft.com/en-us/azure/azure-resource-manager/template-best-practices
+* Linked Templates - https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates
+*
 </details>
 
 <details>
