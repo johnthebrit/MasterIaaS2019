@@ -31,7 +31,7 @@ git pull
 | Visual Studio Code  | https://code.visualstudio.com/Download    |
 | Git                 | https://git-scm.com/downloads             |
 
-Markup : ![On-Board to Azure Logo](Assets/thethaw_header.jpg?raw=true "On-Board to Azure")
+![On-Board to Azure Logo](Assets/logosmall.png?raw=true "On-Board to Azure")
 For a number of Azure videos that I constantly update go to http://onboardtoazure.com. These supplement the book.
 
 ## Chapter Links
