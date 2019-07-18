@@ -33,6 +33,8 @@ git pull
 
 ## Chapter Links
 
+For a number of Azure videos that I constantly update go to http://onboardtoazure.com. These supplement the book.
+
 <details>
     <summary>Chapter 1 Links</summary>
 
